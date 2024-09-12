@@ -8,9 +8,10 @@ This project is a *Task Scheduler* that allows users to create scheduled tasks v
 - View all scheduled tasks in a list.
 
 ## Live Hosted Version
-The project is live and can be accessed for backend [here](https://taskscheduler-5ij8.onrender.com).
 
-The project is live and can be accessed for frontend [here](https://task-scheduler-azure.vercel.app/).
+Backend hosted link - https://nodecronjob-backend.onrender.com
+
+FronteEnd hosted link - https://node-cron-job-36vt.vercel.app/?authuser=0
 
 ## API Documentation
 - POST /api/tasks: Add a new task (schedule an email).
@@ -32,6 +33,5 @@ The project is live and can be accessed for frontend [here](https://task-schedul
 
 #### Backend
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/ashpatni20/TaskScheduler.git
-   cd task-scheduler/backend
+   git clone https://github.com/RanitaGhosh04/nodeCronJob.git
+   
