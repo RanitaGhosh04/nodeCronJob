@@ -31,13 +31,15 @@ A Task Scheduler that enables users to plan and manage tasks via a web-based int
 
 ## Project Setup Instructions
 
-**Clone the Repository**-
+**Clone the Repository**-  
+
 git clone https://github.com/RanitaGhosh04/nodeCronJob.git?authuser=0
 
 #Install Dependencies
 npm install
 
-**Configure Environment Variables**
+**Configure Environment Variables**  
+
 MONGO_URI=mongodb://localhost:27017/your-database
 EMAIL_USER=your-email@example.com
 EMAIL_PASS=your-email-password
@@ -49,7 +51,8 @@ PORT=3000
 **Run FrontEnd**
 -npm run dev
 
-**APIs Provided**
+**APIs Provided**  
+
 **1. POST /api/tasks**
 Description: Create a new task. This endpoint schedules an email to be sent based on the provided details.  
 
