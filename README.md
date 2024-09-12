@@ -40,10 +40,14 @@ npm install
 
 **Configure Environment Variables**  
 
-MONGO_URI=mongodb://localhost:27017/your-database
-EMAIL_USER=your-email@example.com
-EMAIL_PASS=your-email-password
-PORT=3000
+MONGO_URI=mongodb://localhost:27017/your-database  
+
+EMAIL_USER=your-email@example.com  
+
+EMAIL_PASS=your-email-password  
+
+PORT=3000  
+
 
 **Run Backend**
 -npm start
