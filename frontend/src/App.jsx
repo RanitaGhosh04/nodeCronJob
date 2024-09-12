@@ -11,7 +11,7 @@ function App() {
     
     // Send task to the backend
     try {
-      const response = await fetch('http://localhost:3000/api/tasks', {
+      const response = await fetch('https://nodecronjob-backend.onrender.com/api/tasks', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
