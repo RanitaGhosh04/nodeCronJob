@@ -40,37 +40,42 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Add New Task</h1>
+      <h1>Enter the Task</h1>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className='inputF'>
           <label>Task:</label>
           <input
             type="text"
             value={task}
             onChange={(e) => setTask(e.target.value)}
             required
+            placeholder='send notification'
           />
         </div>
-        <div>
+        <div className='inputF'>
           <label>Email:</label>
           <input
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
+            placeholder='abc@gmail.com'
           />
         </div>
-        <div>
-          <label>Schedule (Cron):</label>
+        <div className='inputF'>
+          <label>Cron:</label>
           <input
             type="text"
             value={schedule}
             onChange={(e) => setSchedule(e.target.value)}
-            placeholder="e.g., '0 */12 * * *' for every 12 hours"
+            placeholder="cron expression"
             required
           />
         </div>
+        <div className='button'>
         <button type="submit">Add Task</button>
+        </div>
+       
       </form>
       <TaskList/>
     </div>

@@ -1,12 +1,12 @@
-/* App.css */
+/* App.css
 
 /* Apply basic styles to the app container */
 .App {
-  font-family: Arial, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #caf1ee;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -31,6 +31,7 @@ label {
   font-size: 16px;
   font-weight: bold;
   color: #555;
+  margin-right:10px ;
 }
 
 /* Style for form inputs */
@@ -55,10 +56,11 @@ button {
   font-size: 16px;
   border: none;
   border-radius: 4px;
-  background-color: #007BFF;
+  background-color: #7575be;
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  width: 100px;
 }
 
 /* Style for button on hover */
@@ -90,7 +92,7 @@ button:hover {
   max-width: 900px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: rgb(139, 198, 189);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -99,7 +101,7 @@ button:hover {
   font-size: 24px;
   margin-bottom: 20px;
   text-align: center;
-  color: #333;
+  color: rgb(18, 98, 12);
 }
 
 /* Table styling */
@@ -117,14 +119,35 @@ button:hover {
 }
 
 .task-list th {
-  background-color: #f4f4f4;
+  background-color: #7575be;
   font-weight: bold;
+  color: white;
 }
 
 .task-list tr:nth-child(even) {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
 }
 
 .task-list tr:hover {
-  background-color: #e2e2e2;
+  /* background-color: #e2e2e2; */
+} 
+
+.inputF{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+
+.task-list tbody{
+    background-color: rgb(123, 171, 174);
+}
+
+.task-list{
+    color: rgb(18, 98, 12);
 }

@@ -24,10 +24,10 @@ function TaskList() {
 
   return (
     <div className="task-list">
-      <h2>Scheduled Tasks</h2>
+      <h2>Task Logs</h2>
       {tasks.length > 0 ? (
         <table>
-          <thead>
+          <thead className='thead'>
             <tr>
               <th>Task</th>
               <th>Email</th>
