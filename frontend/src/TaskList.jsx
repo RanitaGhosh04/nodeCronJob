@@ -7,7 +7,7 @@ function TaskList() {
   useEffect(() => {
     const fetchTasks = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/tasks');
+        const response = await fetch('https://nodecronjob-backend.onrender.com/api/tasks');
         if (response.ok) {
           const data = await response.json();
           setTasks(data);
